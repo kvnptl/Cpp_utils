@@ -6,5 +6,9 @@ using std::vector;
 using std::string;
 
 int main(){
-    cout << "Hello world!" << "\n";
+    
+    for (int x=0, y=0 ; x < 10 && y < 10 ; x++, y++){
+        cout << x << " and " << y << "\n";
+    }
+    
 }

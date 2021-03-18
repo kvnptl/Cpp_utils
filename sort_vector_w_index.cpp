@@ -41,6 +41,12 @@ void sort_vector_w_index_generic(T &inp_vect){
 
     cout << "Sorted: ";
     print_2d_vector<vector<int>>(V);
+    T temp_vect = inp_vect;
+    for (int i=0, j=0; i<inp_vect.size() && j<inp_vect.size(); i++, j++){
+         
+         inp_vect[i] = temp_vect[V[j]];
+    }
+    print_2d_vector<vector<float>>(inp_vect);
 }
 
 
