@@ -1,10 +1,13 @@
 #include <iostream>
 #include <vector>
+#include <string>
 
 using std::cout;
-using std::vector;
 using std::string;
+using std::vector;
 
-int main(){
-    cout << "Hello world!" << "\n";
+int main()
+{
+    cout << "Hello world!"
+         << "\n";
 }
